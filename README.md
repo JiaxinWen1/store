@@ -43,3 +43,14 @@ shoe1 = Shoe.objects.create(
 # 3. 运行开发服务器
 python manage.py runserver
 """
+
+# ===== .env 配置文件示例 =====
+# SECRET_KEY=your-very-secret-key-here-change-in-production
+# DEBUG=True
+# DB_NAME=shoe_management
+# DB_USER=your_db_user
+# DB_PASSWORD=your_db_password
+# DB_HOST=localhostssw
+# DB_PORT=5432
+
+# ===== 管理命令脚本 manage_commands.py =====
