@@ -11,6 +11,9 @@ from .serializers import (
     ShoeCreateUpdateSerializer, ShoeImageSerializer
 )
 
+from .serializers import BrandSerializer, ShoeSerializer
+
+
 class BrandViewSet(viewsets.ModelViewSet):
     """品牌视图集"""
     queryset = Brand.objects.all()

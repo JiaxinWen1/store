@@ -1,17 +1,4 @@
-# ===== shoes/ =====
-from django.urls import path, include
-from rest_framework.routers import DefaultRouter
-from . import views
-
-router = DefaultRouter()
-router.register(r'brands', views.BrandViewSet)
-router.register(r'shoes', views.ShoeViewSet)
-
-urlpatterns = [
-    path('api/', include(router.urls)),
-]
-
-# ===== 主项目 urls.py =====
+# ===== shoe_management/urls.py =====
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
